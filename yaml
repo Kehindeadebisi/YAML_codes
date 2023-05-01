@@ -1,0 +1,36 @@
+--1
+network:
+  interface:
+    name: eth0
+    address: 136.204.2.0
+    netmask: 255.255.255.0
+    gateway: 192.136.240.0
+
+
+    --2
+    employees:
+  - name: Ade Alex
+    position: Cloud Enginner
+    department: IT
+    salary: 400000
+  - name: lilian Jian
+    position: Account Manager
+    department: Sales
+    salary: 50000
+  - name: Hadiza Bala
+    position: HR Manager
+    department: HR
+    salary: 1000000
+
+
+--3
+{
+  "network": {
+    "interface": {
+      "name": "eth0",
+      "address": "192.136.204.0",
+      "netmask": "255.255.255.0",
+      "gateway": "192.136.204.0"
+    }
+  }
+}
